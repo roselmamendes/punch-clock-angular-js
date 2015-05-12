@@ -1,5 +1,0 @@
-describe("fizz buzz", function(){
-
-    
-    
-});
