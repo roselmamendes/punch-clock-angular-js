@@ -1,10 +1,10 @@
 'use strict';
 
-describe('myApp.view1 module', function() {
+describe('myApp.add_punch module', function() {
 
-  beforeEach(module('myApp.view1'));
+  beforeEach(module('myApp.add_punch'));
 
-  describe('view1 controller', function(){
+  describe('add_punch controller', function(){
 
     it('should ....', inject(function($controller) {
       //spec body
