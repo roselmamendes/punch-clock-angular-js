@@ -9,9 +9,13 @@ describe('myApp.add_punch module', function() {
       it('should receive a start and end', inject(function($controller) {
 	  var $scope = {};
 	  var addPunchCtrl = $controller('AddPunchCtrl',{$scope:$scope});
-	  $scope.start = "10:00AM";
+	  
 	  var start_date = new Date(2015,4,17,10,0);
-	  var end_date = new Date(2015,4,17,19,0)
+	  var end_date = new Date(2015,4,17,19,0);
+
+	  $scope.start = start_date;
+	  $scope.end = end_date;
+	  
 	  var expected_work_days = [{start: start_date, end: end_date}]
 	  
 	  expect(expected_work_days).toEqual($scope.work_days());
