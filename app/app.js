@@ -3,9 +3,9 @@
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ngRoute',
-    'myApp.punch',
+  'myApp.punch',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/punch'});
+  $routeProvider.otherwise({redirectTo: '/app'});
 }]);
