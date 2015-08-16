@@ -1,6 +1,6 @@
 # Punch Clock
 
-[![Build Status](https://snap-ci.com/roselmamendes/punch-clock-angular-js/branch/develop/build_image)](https://snap-ci.com/roselmamendes/punch-clock-angular-js/branch/dojo)
+[![Build Status](https://snap-ci.com/roselmamendes/punch-clock-angular-js/branch/develop/build_image)](https://snap-ci.com/roselmamendes/punch-clock-angular-js/branch/develop)
 
 Build a punch clock system using AngularJS.
 
