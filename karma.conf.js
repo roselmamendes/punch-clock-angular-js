@@ -14,10 +14,9 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files : [
-      'app/bower_components/angular/angular.js',
-      'app/bower_components/angular-route/angular-route.js',
-      'app/bower_components/angular-mocks/angular-mocks.js',
-      'app/add_punch/**/*.js'
+      'node_modules/angular/angular.js',
+      'node_modules/angular-mocks/angular-mocks.js',
+      'app/punch/**/*.js'
     ], 
 
 
@@ -60,17 +59,10 @@ module.exports = function(config) {
     browsers: ['PhantomJS'],
 
     plugins : [
-            'karma-chrome-launcher',
-            'karma-firefox-launcher',
             'karma-jasmine',
-            'karma-junit-reporter',
- 	    'karma-phantomjs-launcher'
+ 	        'karma-phantomjs-launcher'
             ],
 
-    junitReporter : {
-      outputFile: 'test_out/unit.xml',
-      suite: 'unit'
-    },
       
     // If browser does not capture in given timeout [ms], kill it
     captureTimeout: 60000,
